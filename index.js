@@ -10,8 +10,8 @@ module.exports = function (source) {
 
   // wepkack3: options
   var options = utils.getOptions(this);
-  
-  // merge opts from defaults,opts and query 
+
+  // merge opts from defaults,opts and query
   var opts = merge({
     client: true,
     compileDebug: !!this.minimize,
